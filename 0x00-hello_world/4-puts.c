@@ -1,14 +1,8 @@
 #include <stdio.h>
 
-
-
 /**
- *
- * main - Entry point
- *
- *description this program about using put to diplay standard output
- *
- * Return: Always 0 (Success)
+ * main - /return puts function/
+ * Return: return (0)
  */
 int main(void)
 {
