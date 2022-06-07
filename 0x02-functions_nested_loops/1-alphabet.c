@@ -2,18 +2,18 @@
 
 
 /**
- * main - this program print alphabet
+ * print_alphabet - this program print_alphabet
  *
- * Return: the program return (0)
+ * Return:void
+ * Description: this program print out lowercase
+ * of alphabet to standard output.
  */
-
-char ch = 'a'; 
 
 void print_alphabet(void)
 {
-	for (ch ='a'; ch <= 'z'; ch++)
+	char ch = 'a';
+
+	for (ch = 'a'; ch <= 'z'; ch++)
 		_putchar(ch);
 	_putchar('\n');
-
-	return;
 }
