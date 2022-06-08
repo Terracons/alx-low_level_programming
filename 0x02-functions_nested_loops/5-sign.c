@@ -7,7 +7,7 @@ int _putchar(char c);
  * print_sign - this program print sign
  *
  *
- * @c: character to test
+ * @n: character to test
  * Return: 1 or 0 or -1 0r /
  */
 
