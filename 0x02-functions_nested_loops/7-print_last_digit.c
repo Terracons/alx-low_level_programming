@@ -7,17 +7,14 @@
  *
  *
  * @n: character to test
- * @j: second character to text
+ *
  * Return: this program return n
  */
 
 int print_last_digit(int n)
 {
-	int j;
-
 	if (n < 0)
 		n = -n;
-	j = n % 10;
-	_putchar(j + '0');
-	return (j);
+	_putchar((n % 10) + '0');
+	return (n % 10);
 }
