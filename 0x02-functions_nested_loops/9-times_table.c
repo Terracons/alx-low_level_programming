@@ -20,7 +20,7 @@ void times_table(void)
 			_putchar(',');
 			_putchar(' ');
 
-			p = n * i
+			p = n * i;
 
 			if (p <= 9)
 
