@@ -1,23 +1,25 @@
 #include "main.h"
 
 /**
- * string_toupper - this program
- * chaange lower to upper
+ * _strcmp - this program
+ * compare two strings
  *
- * @str: lowerr case
- * Return: str
+ * @s1: first strings
+ * @s2: first strings
+ * Return:0 else j
  */
-char *string_toupper(char * str)
+int _strcmp(char *s1, char *s2)
 {
-	int a = 0;
+	int i;
+	int j;
 
-	while (str[a] != '\0')
+	i = 0;
+	i = 0;
+
+	while (s1[i] != '\0' && j == 0)
 	{
-		if (str[a] >= 97 && str[a] <= 122)
-		{
-			str[a] = str[a] - 32;
-		}
-		a++;
+		j = s1[i] - s2[i];
+		i++;
 	}
-	return (str);
+	return (j);
 }
