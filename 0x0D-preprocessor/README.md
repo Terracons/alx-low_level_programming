@@ -1,0 +1,1 @@
+macro aas funtion
