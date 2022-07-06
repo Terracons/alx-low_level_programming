@@ -2,22 +2,25 @@
 #include "dog.h"
 
 /**
- * init_dog - this program
- * initailize dog
- *
- * @d: param d
+ * new_dog - this program
+ * initailize new dog
  * @name: dog name
  * @age: dog age
  * @owner: dog owner
- * Return: void
+ * Return: buffer
  */
 
-void init_dog(struct dog *d, char *name, float age, char *owner)
+dog_t *new_dog(char *name, float age, char *owner)
 {
-	if (d)
-	{
-		d->name = name;
-		d->age = age;
-		d->owner = owner;
-	}
+	dog_t *buffer;
+
+	buffer = malloc(sizeof(dog_t));
+	if (!buffer)
+		return (NULL);
+
+	buffer->name = name;
+	buffer->age = age;
+	buffer->owner = owner;
+
+	return (buffer);
 }
