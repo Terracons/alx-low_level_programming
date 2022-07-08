@@ -25,6 +25,11 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 				printf("%s ", separator);
 		}
 	}
+	else
+	{
+		for (i = 0; i < n; i++)
+			printf("%d ", va_arg(list, unsigned int));
+	}
 	va_end(list);
 	printf("\n");
 }
