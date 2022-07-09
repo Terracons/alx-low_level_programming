@@ -9,7 +9,7 @@
  * @cmp: pointer to the function to compare values
  * Return: 0 or 1
  */
-int int_index(int *array, int size, int (*cmp)(int));
+int int_index(int *array, int size, int (*cmp)(int))
 {
 	int n;
 
