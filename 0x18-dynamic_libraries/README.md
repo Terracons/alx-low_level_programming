@@ -1,1 +1,1 @@
-This is README of dynamic library
+This is README of dynamic library.
